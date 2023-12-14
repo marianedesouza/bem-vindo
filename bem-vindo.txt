@@ -1,0 +1,13 @@
+// api/mensagem.js
+
+const obterMensagem = () => {
+  return "Bem-vindo à minha aplicação React!";
+};
+
+export default obterMensagem;
+// Outro arquivo dentro do projeto React
+
+import obterMensagem from './api/mensagem';
+
+// Usar a função
+console.log(obterMensagem()); // Isso imprimirá a mensagem no console
